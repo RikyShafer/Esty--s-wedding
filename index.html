@@ -30,16 +30,17 @@
         }
 
         .rounded-background {
-            width: 100%;
-            height: 500px;
-            background-image: url('wedding-photo.png');
-            /* ודא שהתמונה נמצאת בתיקייה הנכונה */
-            background-size: cover;
-            background-position: center;
-            background-repeat: no-repeat;
-            border-radius: 20px;
-            box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
-        }
+    width: 100%;
+    height: 500px;
+    background-image: url('wedding-photo.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    filter: blur(5px); /* טשטוש התמונה */
+    -webkit-filter: blur(5px); /* תמיכה בדפדפנים ישנים */
+}
 
         .countdown-container .names,
         .countdown-container .footer {
